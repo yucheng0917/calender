@@ -41,10 +41,11 @@
         android:layout_marginStart="101dp"
         android:layout_marginLeft="101dp"
         android:text="登入"
+        android:onClick="login"
         app:backgroundTint="#9C27B0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/b1"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints,OnClick" />
 
     <CheckBox
         android:id="@+id/c"
